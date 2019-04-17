@@ -4,7 +4,7 @@ This is an classic demo for face recognition based on tensorflow &amp; keras
 
 ##### working environment
 
-Ubuntu 16.04
+        Ubuntu 16.04
 	pytoon 3.x
 	tensorflow(keras) 1.0.x
 	opencv(for pytoon) 3.x
@@ -15,7 +15,7 @@ Ubuntu 16.04
 
 ```
 step 1 : open video camera  to test whether the camera workd well ot not
-			python videoOpen.py 0(linux environment)
+	python videoOpen.py 0(linux environment)
 step 2: detect the face region using opencv face dectector 
        	#haarcascade_frontalface_alt2.xml or haarcascade_frontalface_alt.xml
        	#in real test, the former seems better
