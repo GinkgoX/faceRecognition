@@ -4,8 +4,8 @@ This is an classic demo for face recognition based on tensorflow &amp; keras
 
 ##### working environment
 
-        Ubuntu 16.04
-	pytoon 3.x
+       Ubuntu 16.04
+	python 3.x
 	tensorflow(keras) 1.0.x
 	opencv(for pytoon) 3.x
 	USB camera
