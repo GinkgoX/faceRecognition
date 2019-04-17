@@ -21,17 +21,17 @@ step 2: detect the face region using opencv face dectector
 	python faceDetect.py 0
 	
 step 3: extract face from camera, establish the dataset
-		python faceExtract.py 0 120(numbers for each person sampe) dataset/personA
+	python faceExtract.py 0 120(numbers for each person sampe) dataset/personA
 	
 step 4: load dataset and label them using python to do this automaticly
-		python loadData.py dataset
+	python loadData.py dataset
 	
 step 5: train dataset with keras and generate the mode.h5 file
-		#evaluate the model
-		python trainKersa.py
+	#evaluate the model
+	python trainKersa.py
 	
 step 6: predit the face for real-time test
-		python facePredit.py 0
+	python facePredit.py 0
 ```
 
 ##### conclusion
