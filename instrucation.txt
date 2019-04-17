@@ -1,0 +1,20 @@
+step 1 : open video camera  
+		python videoOpen.py 0
+		
+step 2: detect the face region
+		python faceDetect.py 0
+		
+step 3: extract face from camera, establish the dataset
+		python faceExtract.py 0 20 dataset/
+		
+step 4: load dataset and label them
+		python loadData.py dataset
+		
+step 5: train dataset with keras
+		#evaluate the model
+		python trainKersa.py
+		
+step 6: predit the face 
+		python facePredit.py 0
+		
+		
